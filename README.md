@@ -8,31 +8,33 @@ API DETAILS:
 
 Sample JSON Request:
 
-{
+```{
     "email": "puja@gmail.com",
     "password":"pass@123!",
     "age":"24",
     "role":"admin"
-}
+}```
 
 Sample Response :
-{
+
+```{
     "auth": true,
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwiaWF0IjoxNjAwMTg4MzA1LCJleHAiOjE2MDAxOTE5MDV9.CtyaBr155xCJApqU-TqJcguDq7f6vEX2KkWbf9Lf4mQ" 
-}
+}```
 
 
 /login : To login user and validate encrypted password with the one stored in table. Type : POST
 Sample JSON Request:
 
-{
+```{
     "id":"8",
     "password":"pass@123!"
     
-}
+}```
 
 Sample Response : 
-{
+
+```{
     "auth": true,
     "status": "login successfull",
     "details": [
@@ -44,7 +46,7 @@ Sample Response :
             "role": "admin"
         }
     ]
-}
+}```
 
 
 
